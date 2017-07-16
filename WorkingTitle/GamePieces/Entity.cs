@@ -2,9 +2,9 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace WorkingTitle {
+namespace WorkingTitle.GamePieces {
 	public abstract class Entity {
-		public static Texture2D Sprite;
+		public Texture2D Sprite;
 
 		private float _XPosition;
 		public float XPosition{
@@ -25,8 +25,8 @@ namespace WorkingTitle {
 			}
 		}
 
-		public Entity(){
-			
+		public Entity(Texture2D Sprite){
+			this.Sprite = Sprite;
 		}
 
 		public Vector2 GetPosition(){

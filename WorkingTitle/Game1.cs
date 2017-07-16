@@ -3,6 +3,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using WorkingTitle.GamePieces;
 
 namespace GMTKJam17
 {
@@ -13,7 +14,6 @@ namespace GMTKJam17
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 
-		// Textures
 		Texture2D tree;
 		Texture2D rock;
 
